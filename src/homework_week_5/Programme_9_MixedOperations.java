@@ -1,0 +1,23 @@
+package homework_week_5;
+
+/**
+ * 8. Write a Java program to divide two numbers and print on the screen.
+ * Test Data: 50/3
+ * Expected Output: 16
+ */
+
+public class Programme_9_MixedOperations {
+    public static void main(String[] args) {
+        //mixed operation declaration
+        int a = -5 + 8 * 6;
+        int b = (55 + 9) % 9;
+        int c = 20 + -3 * 5 / 8;
+        int d = 5 + 15 / 3 * 2 - 8 % 3;
+        //output
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+
+    }
+}
